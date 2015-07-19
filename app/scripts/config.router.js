@@ -151,10 +151,10 @@ angular.module('app')
                 templateUrl: 'views/ui/component/streamline.html',
                 data : { title: 'Streamlines' }
               })
-              .state('ui.component.timeline', {
-                url: '/timeline',
-                templateUrl: 'views/ui/component/timeline.html',
-                data : { title: 'Timelines' }
+              .state('ui.component.manipulation', {
+                url: '/manipulation',
+                templateUrl: 'views/ui/component/manipulation.html',
+                data : { title: 'Connectivity' }
               })
               .state('ui.component.uibootstrap', {
                 url: '/uibootstrap',

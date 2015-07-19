@@ -54,6 +54,20 @@
         </li>
       </ul>
     </li>
+    <li ng-class="{active:$state.includes('ui.component')}">
+      <a md-ink-ripple>
+        <span class="pull-right text-muted">
+          <i class="fa fa-caret-down"></i>
+        </span>
+        <i class="icon mdi-action-subject i-20"></i>
+        <span class="font-normal">Connectivity</span>
+      </a>
+      <ul class="nav nav-sub">
+        <li ui-sref-active="active">
+          <a md-ink-ripple ui-sref="ui.component.manipulation">Staging</a>
+        </li>
+      </ul>
+    </li>
     <li ng-class="{active:$state.includes('ui.table')}">
       <a md-ink-ripple>
         <span class="pull-right text-muted">
