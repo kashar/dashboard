@@ -1,13 +1,6 @@
 app.controller('ChartCtrl', ['$scope', function($scope) {
   $scope.plot_pie = [];
-  var series = Math.floor(Math.random() * 4) + 3;
-
-  for (var i = 0; i < series; i++) {
-    $scope.plot_pie[i] = {
-      label: "Series" + (i + 1),
-      data: Math.floor(Math.random() * 100) + 1
-    }
-  }
+  $scope.plot_pie = [{label: "CTL", data: 20}, {label: "LAB", data:10}, {label: "Application", data:15}];
 
   $scope.plot_line = [[1, 7.5], [2, 7.5], [3, 5.7], [4, 8.9], [5, 10], [6, 7], [7, 9], [8, 6], [9, 8], [10, 9]];
   $scope.plot_line_1 = [[1, 9.5], [2, 9.4], [3, 9.5], [4, 9.5], [5, 9.7], [6, 9.5], [7, 9], [8, 9.9], [9, 9.6], [10, 9.3]];

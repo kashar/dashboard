@@ -294,7 +294,7 @@ angular.module('app')
                 data : { title: 'Datatable' },
                 templateUrl: 'views/ui/table/datatable.html'
               })
-              .state('ui.table.footable', {
+              .state('ui.table.staging', {
                 url: '/footable',
                 data : { title: 'Footable' },
                 templateUrl: 'views/ui/table/footable.html'
