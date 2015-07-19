@@ -43,11 +43,6 @@ angular.module('app')
               data : { title: 'Dashboard' },
               resolve: load(['scripts/controllers/chart.js','scripts/controllers/vectormap.js'])
             })
-            .state('app.wall', {
-              url: '/wall',
-              templateUrl: 'views/pages/dashboard.wall.html',
-              data : { title: 'Wall', folded: true }
-            })
             .state('app.todo', {
               url: '/todo',
               templateUrl: 'apps/todo/todo.html',
