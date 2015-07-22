@@ -4,8 +4,8 @@
   "authors": [
     "Flatfull"
   ],
-  "description": "Admin web application template with Bootstrap 3 and AngularJS.",
-  "license": "Envato REGULAR LICENSE",
+  "description": "Dashboard",
+  "license": "development",
   "homepage": "",
   "private": true,
   "ignore": [
@@ -61,6 +61,8 @@
     "flot.tooltip": "~0.8.4",
     "flot.orderbars": "*",
     "flot-spline": "*",
-    "waves": "~0.7.1"
+    "waves": "~0.7.1",
+    "vis": "~4.5.0",
+    "gojs": "1.5.x"
   }
 }

@@ -282,6 +282,11 @@ angular.module('app')
                 templateUrl: 'views/ui/table/static.html',
                 data : { title: 'Static', theme: { primary: 'blue'} }
               })
+            .state('ui.wiki', {
+                url: '/mywiki',
+                templateUrl: 'views/ui/component/mywiki.html',
+                data: {title: 'Wiki', theme: {primary: 'blue'}}
+            })
               .state('ui.table.smart', {
                 url: '/smart',
                 templateUrl: 'views/ui/table/smart.html',
