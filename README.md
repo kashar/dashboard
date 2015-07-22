@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #### Build:
 
 1: Install Node.js and NPM on your computer
@@ -14,5 +13,3 @@
 1: Put all the files on a local server (must include the "app" and "libs" folder)
 2: Open "http://localhost/app/" in browser
 =======
-# dashboard
->>>>>>> 5e41b1f9c5dcfb8c0c19ba2a8607e14ba6d502b6
