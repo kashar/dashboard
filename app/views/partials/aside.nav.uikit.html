@@ -54,20 +54,6 @@
         </li>
       </ul>
     </li>
-    <li ng-class="{active:$state.includes('ui.component')}">
-      <a md-ink-ripple>
-        <span class="pull-right text-muted">
-          <i class="fa fa-caret-down"></i>
-        </span>
-        <i class="icon mdi-action-subject i-20"></i>
-        <span class="font-normal">Connectivity</span>
-      </a>
-      <ul class="nav nav-sub">
-        <li ui-sref-active="active">
-          <a md-ink-ripple ui-sref="ui.component.manipulation">Staging</a>
-        </li>
-      </ul>
-    </li>
     <li ng-class="{active:$state.includes('ui.table')}">
       <a md-ink-ripple>
         <span class="pull-right text-muted">
@@ -92,6 +78,18 @@
       <a md-ink-ripple ui-sref="ui.wiki">
         <i class="icon mdi-device-multitrack-audio i-20"></i>
         <span class="font-normal">Wiki</span>
+      </a>
+    </li>
+    <li ui-sref-active="active">
+      <a md-ink-ripple ui-sref="ui.inventory">
+        <i class="icon mdi-device-multitrack-audio i-20"></i>
+        <span class="font-normal">Inventory</span>
+      </a>
+    </li>
+    <li ui-sref-active="active">
+      <a md-ink-ripple ui-sref="ui.draw">
+        <i class="icon mdi-device-access-alarm i-20"></i>
+        <span class="font-normal">Draw</span>
       </a>
     </li>
     <li class="b-b b m-v-sm"></li>

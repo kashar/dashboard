@@ -287,6 +287,16 @@ angular.module('app')
                 templateUrl: 'views/ui/component/mywiki.html',
                 data: {title: 'Wiki', theme: {primary: 'blue'}}
             })
+            .state('ui.inventory', {
+              url: '/inventory',
+              templateUrl: 'views/ui/component/inventory.html',
+              data: {title: 'Inventory', theme: {primary: 'blue'}}
+            })
+            .state('ui.draw', {
+              url: '/draw',
+              templateUrl: 'views/ui/component/draw.html',
+              data: {title: 'Draw', theme: {primary: 'blue'}}
+            })
               .state('ui.table.smart', {
                 url: '/smart',
                 templateUrl: 'views/ui/table/smart.html',
@@ -300,7 +310,7 @@ angular.module('app')
                 templateUrl: 'views/ui/table/datatable.html'
               })
               .state('ui.table.staging', {
-                url: '/footable',
+                url: '/Table',
                 data : { title: 'Footable' },
                 templateUrl: 'views/ui/table/footable.html'
               })
